@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+
+:root {
+	--dark-purple: #8364ff;
+	--light-yellow: #f8fd69;
+}
+
+h1 {
+	text-align: center;
+	font-family: oswald;
+	font-size: 65px;
+	font-weight: 4;
+	color: white;
+}
+
+#description {
+	font-size: 25px;
+	font-family: oswald;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	position: relative;
+	bottom: 35px;
+	color: white;
+}
+
+.name {
+	display: block;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#dropdown {
+	max-width: 80%;
+	font-size: 18px;
+	font-family: oswald;
+	border-radius: 10px;
+}
+
+body {
+	background-image: url("https://image.freepik.com/free-photo/blurred-background-grocery-store_23-2148216105.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+label {
+	display: flex;
+	align-items: center;
+	font-size: 1.125rem;
+	margin-bottom: 0.5rem;
+}
+
+.survey-container {
+	background-color: var(--light-yellow);
+	display: block;
+	justify-content: center;
+	width: 800px;
+	box-shadow: 0 0 0 0.2rem rgba(45, 45, 45, 0.5);
+	align-content: center;
+	font-family: oswald;
+	margin: 0 auto;
+	padding: 20px;
+	opacity: 0.85;
+	border-radius: 10px;
+}
+
+.main-survey {
+	padding: 20px;
+}
+
+#full-name,
+#email,
+#number,
+#dropdown {
+	min-width: 700px;
+	min-height: 30px;
+}
+
+header {
+	background: var(--dark-purple);
+	opacity: 0.85;
+}
+
+input {
+	border-radius: 3px;
+}
+
+#comments {
+	min-height: 120px;
+	min-width: 80%;
+	text-align: start;
+}
+
+#submit {
+	display: block;
+	width: 60%;
+	background: var(--dark-purple);
+	color: white;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 25px;
+	box-shadow: 0 0 0 0.2rem rgba(22, 23, 230 0.5%);
+	margin: 0 auto;
+	margin-top: 20px;
+	border: none;
+	opacity: 0.9;
+	font-family: oswald;
+}

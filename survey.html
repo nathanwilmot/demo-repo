@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+	<div class="header">
+		<header>
+			<h1 id="title">Supermarket Survey form</h1>
+
+			<p id="description">We are interested in your supermarket of choice.</p>
+		</header>
+	</div>
+	<form id="main-form">
+
+		<div class="survey-container">
+
+			<div class="name">
+				<label for id="name-label">Name</label>
+				<input type="text" id="full-name" placeholder="Full Name">
+			</div>
+
+			<div class="main-survey">
+				<label for id="email">Email Address </label>
+				<input type="email" id="email" placeholder="Email Address">
+
+			</div>
+
+			<div class="main-survey">
+				<label for id="number-label">Number</label>
+				<input type="number" id="number" placeholder="Phone Number" min-length="11" max-length="11">
+			</div>
+
+			<div class="main-survey">
+				<label id="dropdown">What is your supermarket of choice?</label>
+				<select id="dropdown">
+					<option disabled selected value>Select a Supermarket</option>
+					<option value="aldi">Aldi</option>
+					<option value="asda">Asda</option>
+					<option value="lidl">Lidl</option>
+					<option value="sainsburys">Sainsburys</option>
+					<option value="morries">Morrisons</option>
+					<option value="tesco">Tesco</option>
+					<option value="waitrose">Waitrose</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+
+			<div class="main-survey">
+				<form id="survey-form" action="">
+					<label for name="visiting-times">How many times a week do you visit this store?</label>
+
+					<label for id="1t"> <input type="radio" name="visiting-times">Once</label>
+					<label for id="2t"> <input type="radio" name="visiting-times">Twice</label>
+					<label for id="3+"> <input type="radio" name="visiting-times">3 or More</label>
+				</form>
+			</div>
+			<div class="main-survey" id="emotion">
+				<label for name="super-check">What do you think are the most important characteristics for a good supermarket?</label>
+
+				<label for id="service"><input type="checkbox" name="super-check" value="service">Good customer service in store.</label>
+				<label for id="quality"><input type="checkbox" name="super-check" value="quality">A plethera of high quality food goods.</label>
+				<label for id="efficient"><input type="checkbox" name="super-check" value="efficient">An efficient checkout operation to minimise waiting time at tills.</label>
+				<label for id="stocked"><input type="checkbox" name="super-check" value="atocked">All products are always extremely well stocked. </label>
+
+			</div>
+
+			<div class="main-survey">
+				<label for id="label-comments">We would love to hear about your supermarket experiences!</label>
+
+				<textarea id="comments" placeholder="Please leave your shopping experiences here..."></textarea>
+
+			</div>
+
+			<div class="main-survey">
+				<button type="submit" id="submit" class="submit">Submit</button>
+			</div>
+
+		</div>
+
+	</form>
+
+</body>
+
+</html>
